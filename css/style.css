@@ -1,0 +1,238 @@
+h1{
+  font-family: 'Bebas Neue', cursive;
+  padding: 10px;
+}
+h2{
+  font-family: 'Poltawski Nowy', serif;
+}
+
+.p2{
+  font-family: 'Bebas Neue', cursive;}
+
+.p1{
+    font-family: 'Bebas Neue', cursive;
+}    
+
+/* body COLOR */
+body{
+  background-image: url(../Imagenes/Renders/Amenidades_patio_con_asador.png);
+}
+
+/* header */
+
+.container {  display: grid;
+  grid-template-columns: 0.3fr 1.4fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Foto nombre"
+    "Foto descripcion";
+}
+
+.Foto { grid-area: Foto; }
+
+.nombre { grid-area: nombre; }
+
+.descripcion { grid-area: descripcion; }
+
+
+/* logo */
+.Foto img{
+  width: 100%;
+  height: 100%;
+  border-right:  2px solid black ;
+}
+
+.container{
+  border-collapse: collapse;
+  border: 3px solid black;
+  height: 180px;
+  background-color: rgb(255, 227, 68);
+  border-radius: 9px;
+  opacity: 0.8;
+}
+
+.nombre{
+  border-bottom : 2px solid black;
+}
+
+/* nav */
+
+.nav a {
+  color: #ADAFB0;
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 0px 30px 0px 30px;
+  text-decoration: none;
+  border-radius: 7px;
+  font-style: inherit; }
+
+.nav a:hover {
+  color: #030304;
+  background-color: gold;
+  opacity: 1;
+}
+
+.nav{
+  background-color: black;
+  height: 35px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+
+
+/* primer render */
+
+.conjunto1{
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.788);
+  border-radius: 8px;
+  border: 3px solid black;
+}
+
+.render_primero{
+  width: 100%;
+}
+
+.render_primero img{
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Video index1 */
+.videoindex1{
+border: 2px black solid;
+border-radius: 8px;
+background-color: #030304;
+}
+
+.videoindex1 iframe{
+  align-items: center;
+  width: 100%;
+  height: 400px;
+}
+
+
+/* segunda etapa index */
+
+.segunda_etapa_index{
+border: black 3px solid;
+border-radius: 8px;
+}
+
+
+.container_segundaparte {  display: grid;
+  grid-template-columns: 1.2fr 1.2fr;
+  grid-template-rows: 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "imagen-oficina lorem";
+}
+
+.imagen-oficina { grid-area: imagen-oficina; }
+
+.lorem_2 { grid-area: lorem; }
+
+.container_segundaparte img{
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
+  background-size: cover;
+}
+
+.lorem_2{
+  background-image: url(/Imagenes/Renders/Amenidades_Pileta.png);
+  background-size: cover;
+  text-align: center;
+  color: aliceblue;
+  
+}
+
+.p2{
+  text-align: center;
+  font-size: x-large;
+  color: aliceblue;
+
+}
+
+
+/*footer*/
+.footer{
+background-image: url(/Imagenes/WhatsApp\ Image\ 2023-04-10\ at\ 15.52.39.jpeg);
+background-size:100% 100%;
+background-repeat:  no-repeat;
+background-attachment: fixed;
+opacity: 0.8;
+border: 3px solid black;
+border-radius: 6px;
+}
+
+.div_general_footer{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.div_copy_footer{
+text-align: center;}
+
+.div_enlaces_footer{
+  font-size: large;
+}
+
+.div_redes_footer{
+  font-size: large;
+}
+
+
+/*  */
+/* renders */
+
+/* grid main render */
+
+.container_render {  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "render1 render2"
+    "render3 render4"
+    "render5 render6";
+}
+
+.render1 { grid-area: render1; }
+
+.render2 { grid-area: render2; }
+
+.render3 { grid-area: render3; }
+
+.render4 { grid-area: render4; }
+
+.render5 { grid-area: render5; }
+
+.render6 { grid-area: render6; }
+
+
+.container_render{
+  justify-content: space-around;
+
+}
+
+.container_render img{
+  width: 99%;
+  border: 3px solid black;
+  height: 99%;
+  border: solid black 4px;
+  border-radius: 6px;
+}
